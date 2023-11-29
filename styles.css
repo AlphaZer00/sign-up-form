@@ -3,7 +3,6 @@ body{
     margin: 0px;
     background-color: bisque;
     display: flex;
-    
 }
 
 .bg-image {
@@ -16,6 +15,10 @@ body{
     overflow: hidden;
 }
 
+.text-area {
+    padding-left: 1.5em;
+}
+
 span {
     display: inline-block;
     max-width: 75ch;
@@ -23,8 +26,23 @@ span {
 
 ul {
     list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 28em;
+    justify-content: space-between;
+    padding-left: 0px;
 }
 
-form {
-    padding-left: 0;
+li {
+    margin: 0px 0px 1em 0px;
+}
+
+input {
+    border-radius: 7px;
+    border: none;
+}
+
+input:focus {
+    border: 2px solid blue;
+    box-shadow: 3px 3px 3px black;
 }
