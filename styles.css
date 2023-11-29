@@ -3,6 +3,7 @@ body{
     margin: 0px;
     background-color: bisque;
     display: flex;
+    font-family: 'Roboto', sans-serif;
 }
 
 .bg-image {
@@ -45,4 +46,12 @@ input {
 input:focus {
     border: 2px solid blue;
     box-shadow: 3px 3px 3px black;
+}
+
+button {
+    padding: .4em 1.2em;
+    background-color: #2c5821;
+    border: none;
+    border-radius: 7px;
+    color: white;
 }
