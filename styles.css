@@ -27,16 +27,27 @@ body{
     align-items: center;
     max-height: 14vh;
     margin-top: 20vh;
-    background-color: rgba(0, 0, 0, .5);
     padding: 1em 1em;
+}
+
+.attribution,.banner {
+    background-color: rgba(0, 0, 0, .5);
 }
 
 .banner img {
     height: 150px;
 }
 
-.banner span{
-    font-size: 3em;;
+.banner span {
+    font-size: 3em;
+}
+
+.attribution {
+    padding: .5em .1em;
+    font-size: .7em;
+}
+
+.sidebar span,a{    
     color: antiquewhite;
 }
 
