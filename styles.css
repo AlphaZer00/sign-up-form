@@ -13,7 +13,6 @@ html, body{
 }
 
 .sidebar {
-    position: relative;
     min-width: 350px;
     width: 30vw;
     flex-grow: 1;
@@ -25,11 +24,13 @@ html, body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-width: 450px;
 }
 
 .banner {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     max-height: 14vh;
     margin-top: 20vh;
     padding: 1rem 1rem;
@@ -42,7 +43,6 @@ html, body{
 .banner>img {
     max-height: 150px;
     min-width: 150px;
-    overflow: clip;
 }
 
 .banner span {
@@ -94,6 +94,14 @@ button {
     border: none;
     border-radius: 7px;
     color: white;
+}
+
+.button-area {
+    padding: 2em
+}
+
+.button-area a {
+    color: #2c5821
 }
 
 .form-area {
