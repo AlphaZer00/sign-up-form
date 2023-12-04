@@ -73,15 +73,15 @@
                     <label for="password">
                       <span>PASSWORD</span><br>
                       <input type="password" name="user_password" id="password"
-                      pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$" onkeyup="check();">
+                      pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" onkeyup="check();" required>
                     </label>
                   </li>
                   <li>
                     <label for="confirm-password">
                       <span>CONFIRM PASSWORD</span><br>
                       <input type="password" name="user_confirm_password" id="confirm-password" 
-                      onkeyup="check();">
-                      <span class="message">TEst</span>
+                      onkeyup="check();" required> <br>
+                      <span class="message"></span>
                     </label>
                   </li>
                 </ul>
